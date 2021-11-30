@@ -1,0 +1,108 @@
+.todo-container {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 20px;
+	width: 600px;
+	transform: translate(-50%, -50%);
+	background-color: #33333377;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.todo {
+	width: 400px;
+}
+
+.todo-container h2 {
+	padding: 10px;
+	font-size: 2em;
+}
+
+.todo-header input {
+	width: 90%;
+	border: none;
+	border-radius: 5px;
+	height: 20px;
+}
+
+.todo-header button {
+	color: #fff;
+	border: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #4b4b4b;
+}
+
+.todo-container ul {
+	list-style: none;
+}
+
+.todo-list {
+    padding: 0;
+}
+
+.todo-list-item {
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #0000004d;
+	display: flex;
+	flex-direction: row;
+}
+
+.todo-list-item form {
+	width: 100%;
+	display: flex;
+}
+
+.todo-list-item input {
+	flex-grow: 2;
+	margin-right: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+.todo-list-item button {
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+	background-color: #59d433;
+}
+
+.todo-list-item .cancel {
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 5px;
+	background-color: #df2b2b;
+	margin-left: 5px;
+}
+
+.todo-list-item div {
+	flex-grow: 2;
+}
+
+.todo-list-item .edit {
+	color: #8fe93a;
+	margin-right: 10px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.todo-list-item .remove {
+	color: #f36060;
+	margin-right: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
